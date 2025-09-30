@@ -9,7 +9,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/aprendiz")
-@CrossOrigin("http://localhost:5173/")
+//@CrossOrigin("http://localhost:5173/")
+@CrossOrigin
 public class AprendizController {
 
     @Autowired
